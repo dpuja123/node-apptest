@@ -15,7 +15,7 @@ app.get('/merta', function (req, res) {
     res.send('{ "response": " Hello Merta, How are you? " }');
 });
 app.get('/puja', function (req, res) {
-    res.send('{ "response": "Hai" }');
+    res.send('{ "response": "Hai saya cantik" }');
 });
 app.get('/cicd', function (req, res) {
     res.send('{ "response": " continuous integration and continuous delivery/deployment " }');
